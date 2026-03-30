@@ -132,3 +132,13 @@ TOP_K=5
 CHUNK_SIZE=500
 CHUNK_OVERLAP=50
 ```
+
+## Author
+
+**Sara** — Software Engineer transitioning to AI/ML
+
+[LinkedIn](https://linkedin.com/in/sara-iskandar) • [GitHub](https://github.com/sara-iskandar)
+
+---
+
+⭐ If you found this useful, give it a star!
