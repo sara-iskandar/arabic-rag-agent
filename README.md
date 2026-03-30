@@ -1,4 +1,4 @@
-# 🤖 Arabic RAG Agent — مساعد المعرفة
+# 🤖 Arabic RAG Agent — Knowledge Assistant
 
 A production-grade Retrieval-Augmented Generation (RAG) system for Arabic language, built with FastAPI, ChromaDB, and Google Gemini. Answers Arabic medical questions grounded in WHO Arabic sources with full citation support.
 
@@ -28,7 +28,7 @@ Reciprocal Rank Fusion (RRF merge)
 Arabic Prompt Builder (RTL-aware, citation template)
      │
      ▼
-Gemini 2.0 Flash
+Gemini 2.5 Flash
      │
      ▼
 Cited Arabic Answer + Sources
@@ -94,7 +94,7 @@ Default corpus scraped from WHO Arabic fact sheets:
 | Vector Store | ChromaDB (persistent) |
 | Keyword Search | BM25 (rank-bm25) |
 | Arabic NLP | PyArabic |
-| LLM | Google Gemini 2.0 Flash |
+| LLM | Google Gemini 2.5 Flash |
 | Deployment | Docker + docker-compose |
 
 ## 📁 Project Structure
@@ -132,3 +132,13 @@ TOP_K=5
 CHUNK_SIZE=500
 CHUNK_OVERLAP=50
 ```
+
+## Author
+
+**Sara** — Software Engineer transitioning to AI/ML
+
+[LinkedIn](https://linkedin.com/in/sara-iskandar) • [GitHub](https://github.com/sara-iskandar)
+
+---
+
+⭐ If you found this useful, give it a star!
