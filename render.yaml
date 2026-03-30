@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: arabic-rag-agent
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CHROMA_PERSIST_DIR
+        value: ./data/chroma_db
+      - key: COLLECTION_NAME
+        value: arabic_rag
+      - key: TOP_K
+        value: 5
+      - key: CHUNK_SIZE
+        value: 500
+      - key: CHUNK_OVERLAP
+        value: 50
