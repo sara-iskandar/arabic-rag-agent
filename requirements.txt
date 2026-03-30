@@ -17,8 +17,5 @@ pypdf==5.1.0
 beautifulsoup4==4.12.3
 requests==2.32.3
 
-ragas==0.2.6
-datasets==3.2.0
-
 pytest==8.3.4
 httpx==0.28.1
