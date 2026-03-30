@@ -18,7 +18,7 @@ class ArabicRAGPipeline:
 
     def __init__(self):
         self.client = genai.Client(api_key=settings.gemini_api_key)
-        self.model_name = "gemini-2.0-flash-lite"
+        self.model_name = "gemini-2.5-flash"
         self.embedder = ArabicEmbedder()
         self.retriever = HybridRetriever(self.embedder)
         self.preprocessor = ArabicPreprocessor()
