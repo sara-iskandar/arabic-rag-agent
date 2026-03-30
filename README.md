@@ -94,7 +94,7 @@ Default corpus scraped from WHO Arabic fact sheets:
 | Vector Store | ChromaDB (persistent) |
 | Keyword Search | BM25 (rank-bm25) |
 | Arabic NLP | PyArabic |
-| LLM | Google Gemini 2.0 Flash |
+| LLM | Google Gemini 2.5 Flash |
 | Deployment | Docker + docker-compose |
 
 ## 📁 Project Structure
