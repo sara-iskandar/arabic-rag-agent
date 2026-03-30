@@ -1,4 +1,4 @@
-# 🤖 Arabic RAG Agent — مساعد المعرفة
+# 🤖 Arabic RAG Agent — Knowledge Assistant
 
 A production-grade Retrieval-Augmented Generation (RAG) system for Arabic language, built with FastAPI, ChromaDB, and Google Gemini. Answers Arabic medical questions grounded in WHO Arabic sources with full citation support.
 
