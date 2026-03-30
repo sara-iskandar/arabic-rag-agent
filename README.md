@@ -28,7 +28,7 @@ Reciprocal Rank Fusion (RRF merge)
 Arabic Prompt Builder (RTL-aware, citation template)
      │
      ▼
-Gemini 2.0 Flash
+Gemini 2.5 Flash
      │
      ▼
 Cited Arabic Answer + Sources
